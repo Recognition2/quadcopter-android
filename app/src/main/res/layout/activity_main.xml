@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="212dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="30px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lift" />
+
+            <Button
+                android:id="@+id/lift_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Down" />
+
+            <TextView
+                android:id="@+id/lift_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="300"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/lift_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Up" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="30px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pitch" />
+
+            <Button
+                android:id="@+id/pitch_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Down" />
+
+            <TextView
+                android:id="@+id/pitch_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="300"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/pitch_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Up" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="67dp">
+
+            <TextView
+                android:layout_width="30px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Roll" />
+
+            <Button
+                android:id="@+id/roll_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Down" />
+
+            <TextView
+                android:id="@+id/roll_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="300"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/roll_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Up" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:layout_width="30px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yaw" />
+
+            <Button
+                android:id="@+id/yaw_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Down" />
+
+            <TextView
+                android:id="@+id/yaw_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="300"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/yaw_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Up" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
